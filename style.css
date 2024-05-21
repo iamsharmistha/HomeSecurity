@@ -350,7 +350,7 @@ h5 {
   }
   
   .section {
-    padding: 20px 0;
+    padding: 15px 0;
   }
   
   .right-col{
@@ -388,6 +388,7 @@ h5 {
   /* MONITORING */
 
   .monitoring .img{
+    padding-bottom: 1rem!important;
     display: flex;
     justify-content: center!important;
   }
@@ -397,8 +398,10 @@ h5 {
   .video-doorbell .content,
   .wireless-home .content,
   .alarm-system .content{
-    padding-left: 0!important;
-    padding-top: 1rem;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    padding-top: 0!important;
+    padding-bottom: 1rem!important;
     text-align: center;
   }
 
@@ -406,10 +409,25 @@ h5 {
   .Secure24 .img,
   .wireless-home .img,
   .alarm-system .img{
-    padding-left: 0!important;
+    padding-left: 0.5rem!important;
+    padding-right: 0.5rem!important;
+    padding-bottom: 1rem!important;
     display: flex;
     justify-content: center;
   }
+
+  /* Image heights adjustments */
+    .video-doorbell .img img,
+    .wireless-home .img img,
+    .alarm-system .img img{
+      height: 250px;
+      padding-bottom: 1rem;
+    }
+
+  /* Call Today */
+    .call-today h5{
+      font-size: 18px;
+    }
 
   /* Footer Form */
 
