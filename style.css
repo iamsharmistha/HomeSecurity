@@ -318,7 +318,88 @@ h5 {
 
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (min-width: 768px) and (max-device-width: 1024px)  {
+
+  h1 {
+    font-size: 36px;
+    line-height: 28px;
+    color: var(--color-darkblue);
+  }
+  
+  h2 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  
+  h3 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  
+  h5 {
+    line-height: 26px;
+  }
+  
+  .section {
+    padding: 20px 0;
+  }
+  
+  .right-col{
+    margin-top: 2.5rem;
+  }
+
+  /* WHY CHOOSE */
+
+  .why-choose .img {
+    padding-top: 1rem;
+    justify-content: center!important;
+  }
+
+  .why-choose .content {
+    text-align: center;
+  }
+
+  /* MONITORING */
+
+  .monitoring .img{
+    display: flex;
+    justify-content: center!important;
+  }
+
+  .monitoring .content,
+  .Secure24 .content,
+  .video-doorbell .content,
+  .wireless-home .content,
+  .alarm-system .content{
+    padding-left: 0!important;
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  /* <!--Additional Secure24 --> */
+  .Secure24 .img,
+  .wireless-home .img,
+  .alarm-system .img{
+    padding-left: 0!important;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Footer Form */
+
+    .footer-form .row{
+    justify-content: center;
+  }
+
+  .footer-form{
+    background: var(--color-darkblue);
+    color: var(--color-white);
+  }
+
+  .form{
+    width: 100%;
+    position: static;
+  }
   
 
 }
@@ -327,7 +408,7 @@ h5 {
   
 }
 
-@media screen and (min-width: 350px)  {
+@media screen and (min-width: 350px)  and (max-device-width: 767px) {
   
   h1 {
     font-size: 26px;
@@ -358,7 +439,7 @@ h5 {
   }
 
   .home-banner .right-col{
-    padding: 10px!important;
+    padding: 10px;
   }
 
     /* CTA button */
@@ -378,11 +459,11 @@ h5 {
 
   .why-choose .img {
     padding-top: 1rem;
-    justify-content: center!important;
+    justify-content: center;
   }
 
   .why-choose .content {
-    text-align: center;
+    text-align: center!important;
   }
 
   /* MONITORING */
@@ -402,7 +483,7 @@ h5 {
     padding-right: 1rem!important;
     padding-top: 0!important;
     padding-bottom: 1rem!important;
-    text-align: center;
+    text-align: center!important;
   }
 
   /* <!--Additional Secure24 --> */
@@ -413,7 +494,7 @@ h5 {
     padding-right: 0.5rem!important;
     padding-bottom: 1rem!important;
     display: flex;
-    justify-content: center;
+    justify-content: center!important;
   }
 
   /* Image heights adjustments */
@@ -429,22 +510,6 @@ h5 {
       font-size: 18px;
     }
 
-  /* Footer Form */
 
-    .footer-form .row{
-    justify-content: center;
-  }
-
-  .footer-form{
-    background: var(--color-darkblue);
-    color: var(--color-white);
-  }
-
-  .form{
-    width: 100%;
-    position: static;
-  }
-
-  
 
 }
