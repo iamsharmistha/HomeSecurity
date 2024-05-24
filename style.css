@@ -230,6 +230,57 @@ h5 {
   top: 100%;
 }
 
+/* ---------- NAVBAR START-------------- */
+
+nav .navbar-brand img{
+  height: 90px;
+  object-fit: cover;
+}
+
+.navbar-nav li {
+  padding: 0 15px;
+} 
+
+.navbar-nav li a {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.navbar-nav .nav-link.active{
+  color: var(--color-darkblue);
+}
+
+.navbar-nav li a:hover {
+  color: var(--color-orange)
+}
+
+.nav-contact a{
+  font-size: 20px;
+}
+
+.nav-contact a i{
+  color: var(--color-orange);
+
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  width: 300px;
+}
+
+
+/* Responisve */
+button.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+
+/* ---------- NAVBAR END-------------- */
+
 
 @media screen and (max-width: 1026px)  {
   
@@ -408,7 +459,7 @@ h5 {
   
 }
 
-@media screen and (min-width: 350px)  and (max-device-width: 767px) {
+@media screen and (min-width: 350px)  and (max-width: 767px) {
   
   h1 {
     font-size: 26px;
@@ -447,6 +498,14 @@ h5 {
     padding: 10px!important;
     font-size: 18px;
   }
+
+
+  /* Responsive Navbar */
+  nav .navbar-brand img{
+    height: 40px;
+    object-fit: cover;
+  }
+
 
   /* fast-installation */
   .fast-installation h5{
