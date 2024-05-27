@@ -545,6 +545,11 @@ button.navbar-toggler {
 /*     text-align: center!important; */
   }
 
+/*   Call today */
+  .call-today {
+    text-align: left!important;
+  }
+
   /* <!--Additional Secure24 --> */
   .Secure24 .img,
   .wireless-home .img,
