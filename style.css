@@ -546,7 +546,7 @@ button.navbar-toggler {
   }
 
 /*   Call today */
-  .call-today {
+  .call-today h5{
     text-align: left!important;
   }
 
