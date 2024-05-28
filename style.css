@@ -318,7 +318,7 @@ button.navbar-toggler {
   }
 
   .why-choose .content {
-    text-align: center;
+/*     text-align: center; */
   }
 
   /* MONITORING */
@@ -335,7 +335,7 @@ button.navbar-toggler {
   .alarm-system .content{
     padding-left: 0!important;
     padding-top: 1rem;
-    text-align: center;
+/*     text-align: center; */
   }
 
   /* <!--Additional Secure24 --> */
@@ -406,7 +406,7 @@ button.navbar-toggler {
   }
 
   .why-choose .content {
-    text-align: center;
+/*     text-align: center; */
   }
 
   /* MONITORING */
@@ -423,7 +423,7 @@ button.navbar-toggler {
   .alarm-system .content{
     padding-left: 0!important;
     padding-top: 1rem;
-    text-align: center;
+/*     text-align: center; */
   }
 
   /* <!--Additional Secure24 --> */
@@ -521,7 +521,7 @@ button.navbar-toggler {
   }
 
   .why-choose .content {
-    text-align: center!important;
+/*     text-align: center!important; */
   }
 
   /* MONITORING */
@@ -541,7 +541,12 @@ button.navbar-toggler {
     padding-right: 1rem!important;
     padding-top: 0!important;
     padding-bottom: 1rem!important;
-    text-align: center!important;
+/*     text-align: center!important; */
+  }
+
+/*   Call today */
+  .call-today h5{
+    text-align: left!important;
   }
 
   /* <!--Additional Secure24 --> */
@@ -569,4 +574,9 @@ button.navbar-toggler {
     }
 
 
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> 90cec36642c53d491c4e1878cd3ed8160e5fdcc2
