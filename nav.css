@@ -141,6 +141,10 @@ nav .navbar-nav .dropdown-menu {
     display: none;
 }
 
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  width: 300px;
+}
+
 
 /* Responisve */
 button.navbar-toggler {
@@ -151,13 +155,23 @@ button.navbar-toggler {
   box-shadow: none;
 }
 
-
 /* ---------- NAVBAR END-------------- */
 
 
-@media screen and (min-width: 1200px)  {
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
   
-    
+  .navbar .container-fluid {
+    padding: 0 2rem!important;
+  }
+
+  .nav .navbar-brand img {
+    height: 70px!important;
+    object-fit: contain!important;
+  }
+
+  .navbar-nav  .nav-item .nav-link {
+    font-size: 14px!important;
+  }
 
 }
 

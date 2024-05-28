@@ -1,0 +1,295 @@
+/* =======================AREAS SERVED PAGE CSS============== */
+*,
+body,
+::after,
+::before,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+aside,
+section,
+div {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts */
+:root {
+  --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Global Colors */
+:root {
+
+  --color-white: #ffffff;
+
+  --color-black: #000;
+
+  --color-darkblue: #0065a1;
+
+  --color-blue: #3cb4e5;
+
+  --color-orange: #ff9015;
+
+  --color-text: #333f48;
+
+  --color-lightblue: #e5e9f8;
+
+  --color-lightgrey: #f4f5f9;
+
+}
+
+.color-darkblue{
+  color: var(--color-darkblue);
+}
+
+.color-orange{
+  color: var(--color-orange);
+}
+
+.bg-lightgrey {
+  background-color: var(--color-lightgrey);
+}
+
+/*--------- # General -----------------*/
+body {
+  color: var(--color-text);
+  font-family: var(--default-font);
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  text-transform: none;
+}
+
+
+a,
+a:focus,
+a:hover,
+a:active {
+  text-decoration: none;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+
+
+* :focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 28px;
+  color: var(--color-darkblue);
+}
+
+h2 {
+  font-size: 34px;
+  line-height: 34px;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 34px;
+}
+
+h5 {
+  line-height: 22px;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.full-width {
+  width: 100%;
+  float: left;
+}
+
+.img-cover{
+  object-fit: cover;
+}
+
+/* CTA button */
+.cmnBtn {
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: var(--color-blue);
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.cmnBtn:hover {
+  background-color: var(--color-orange);
+  transition: all 0.5s ease-in-out;
+}
+
+/* Orange line divider */
+.divider {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-orange);
+  }
+  
+  .divider-sm {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: var(--color-orange);
+  }
+
+/* STATE */
+.states-row ul {
+    column-count: 3;
+    padding: 20px 0;
+    padding-left: 20px;
+  }
+  
+  .states-row ul li {
+    padding: 5px 0 0 0;
+  }
+  
+  .left-pane-content {
+    padding-right: 40px;
+  }
+  
+  /* =======================AREAS SERVED PAGE CSS END ============== */
+
+  @media screen and (min-width: 768px)  and (max-width: 1024px) {
+  
+    h1 {
+      font-size: 26px;
+      line-height: 28px;
+      color: var(--color-darkblue);
+    }
+    
+    h2 {
+      font-size: 22px;
+      line-height: 28px;
+    }
+    
+    h3 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    
+    h5 {
+      line-height: 26px;
+    }
+    
+    .section {
+      padding: 15px 0;
+    }
+    
+    .right-col{
+      margin-top: 4.5rem;
+    }
+  
+    .home-banner .right-col{
+      padding: 10px;
+    }
+  
+      /* CTA button */
+    .cmnBtn {
+      padding: 10px!important;
+      font-size: 18px;
+    }
+  
+    /* =======================AREAS SERVED PAGE CSS============== */
+    .states-row ul {
+      column-count: 2 !important;
+      margin-left: 20px;
+    }
+  
+    .right-pane-content{
+      padding-left: 10px!important;
+    }
+  
+    .left-pane-content {
+      padding-right: 10px;
+    }
+    /* =======================AREAS SERVED PAGE CSS============== */
+  
+  }
+
+  @media screen and (min-width: 350px)  and (max-width: 767px) {
+  
+    h1 {
+      font-size: 26px;
+      line-height: 28px;
+      color: var(--color-darkblue);
+    }
+    
+    h2 {
+      font-size: 22px;
+      line-height: 28px;
+    }
+    
+    h3 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    
+    h5 {
+      line-height: 26px;
+    }
+    
+    .section {
+      padding: 15px 0;
+    }
+    
+    .right-col{
+      margin-top: 4.5rem;
+    }
+  
+    .home-banner .right-col{
+      padding: 10px;
+    }
+  
+      /* CTA button */
+    .cmnBtn {
+      padding: 10px!important;
+      font-size: 18px;
+    }
+  
+    /* =======================AREAS SERVED PAGE CSS============== */
+    .states-row ul {
+      column-count: 2 !important;
+      margin-left: 20px;
+    }
+  
+    .right-pane-content{
+      padding-left: 10px!important;
+    }
+  
+    .left-pane-content {
+      padding-right: 10px;
+    }
+    /* =======================AREAS SERVED PAGE CSS============== */
+  
+  }

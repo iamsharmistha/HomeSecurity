@@ -230,7 +230,7 @@ h5 {
   top: 100%;
 }
 
-/* ---------- NAVBAR START-------------- */
+/* ========================== NAVBAR START======================= */
 
 nav .navbar-brand img{
   height: 90px;
@@ -277,9 +277,7 @@ button.navbar-toggler {
 .navbar-toggler:focus{
   box-shadow: none;
 }
-
-
-/* ---------- NAVBAR END-------------- */
+/* ===================== NAVBAR END=================*/
 
 
 @media screen and (max-width: 1026px)  {
@@ -360,12 +358,13 @@ button.navbar-toggler {
     color: var(--color-white);
   }
 
-
-
   .form{
     width: 100%;
     position: static;
   }
+
+
+
 
 }
 
@@ -568,7 +567,6 @@ button.navbar-toggler {
     .call-today h5{
       font-size: 18px;
     }
-
 
 
 }
